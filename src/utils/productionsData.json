@@ -1,0 +1,36 @@
+[
+    {
+        "relatedEntity": "63c7f913f1b1c2e4d94e4b12",
+        "entityType": "creators",
+        "title": "Firearm Safety Basics",
+        "description": "Introduction to firearm safety rules and practices.",
+        "videoUrl": "https://example.com/videos/firearm-safety.mp4",
+        "thumbnailUrl": "https://example.com/thumbnails/firearm-safety.jpg",
+        "tags": [
+            "safety",
+            "firearm"
+        ],
+        "views": 3500,
+        "likes": [
+            "63c7f913f1b1c2e4d94e4b15"
+        ],
+        "isFeatured": true
+    },
+    {
+        "relatedEntity": "63c7f913f1b1c2e4d94e4b15",
+        "entityType": "institutions",
+        "title": "Tactical Movement Techniques",
+        "description": "Learn advanced tactical movement strategies.",
+        "videoUrl": "https://example.com/videos/tactical-movement.mp4",
+        "thumbnailUrl": "https://example.com/thumbnails/tactical-movement.jpg",
+        "tags": [
+            "tactics",
+            "movement"
+        ],
+        "views": 2500,
+        "likes": [
+            "63c7f913f1b1c2e4d94e4b16"
+        ],
+        "isFeatured": false
+    }
+]

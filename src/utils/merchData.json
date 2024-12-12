@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Tactical Vest",
+        "description": "High-quality tactical vest for field use.",
+        "price": 150,
+        "category": 1,
+        "stock": 25,
+        "sizes": "M, L, XL",
+        "images": "https://example.com/images/vest.jpg",
+        "discount": 10,
+        "isFeatured": true,
+        "offer": false
+    },
+    {
+        "name": "Combat Gloves",
+        "description": "Durable gloves designed for combat training.",
+        "price": 50,
+        "category": 2,
+        "stock": 100,
+        "sizes": "S, M, L",
+        "images": "https://example.com/images/gloves.jpg",
+        "discount": 5,
+        "isFeatured": false,
+        "offer": true
+    }
+]
