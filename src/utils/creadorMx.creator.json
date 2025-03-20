@@ -1,0 +1,37 @@
+[
+  {
+    "email": "cre2@example.com",
+    "password": "anothersecurepassword456",
+    "creatorName": "ChiludasMX",
+    "name": "Jane Smith",
+    "images": [
+      "https://example.com/image3.jpg",
+      "https://example.com/image4.jpg"
+    ],
+    "militaryGrade": "Cabo",
+    "institutions": {
+      "$oid": "6754cbee7309125484fa5222"
+    },
+    "sponsors": [
+      {
+        "$oid": "67632ba7ce6736e9741640de"
+      }
+    ],
+    "merches": [
+      {
+        "$oid": "6754cbee7309125484fa5222"
+      }
+    ],
+    "courses": [
+      {
+        "$oid": "6754cbee7309125484fa5222"
+      }
+    ],
+    "lastLogin": {
+      "$numberLong": "1692009600000"
+    },
+    "notification": false,
+    "role": "user",
+    "preference": false
+  }
+]

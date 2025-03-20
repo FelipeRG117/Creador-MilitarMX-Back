@@ -11,7 +11,7 @@ const InstitutionSchema = new mongoose.Schema(
     contactEmail: [{ type: String, required: true }],
     contactPhones: [{ type: Number, required: true }],
     afiliatedCreators: [
-      { type: mongoose.Schema.Types.ObjectId, required: true, ref:"creators" },
+      { type: mongoose.Schema.Types.ObjectId, required: true, ref: "creator" },
     ],
     estabilshedDate: { type: String },
   },
@@ -19,6 +19,6 @@ const InstitutionSchema = new mongoose.Schema(
 );
 
 export const institutionModel = mongoose.model(
-  "institutions",
+  "institution",
   InstitutionSchema
 );

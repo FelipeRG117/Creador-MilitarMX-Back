@@ -11,4 +11,19 @@ export class CoursesController {
       console.log("este es de courses", error);
     }
   }
+
+  async getSingleCourse(req, res) {
+    try {
+      const id = req.params.id;
+      console.log("esto es id de params", id);
+      const course = await coursesRepository.getCourseById(id);
+      if (!course) {
+        return console.log("esto no es course", course);
+      }
+      console.log("esto es course en controller", course);
+      res.status(200).json(course);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

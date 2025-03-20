@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Tactical Backpack",
+    "description": "Durable backpack for combat professionals with multiple compartments.",
+    "price": 99.99,
+    "category": [
+      1,
+      2
+    ],
+    "stock": 100,
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "images": [
+      "https://example.com/images/merch1.jpg",
+      "https://example.com/images/merch2.jpg"
+    ],
+    "afiliatedCreators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "discount": 15,
+    "isFeatured": true,
+    "offer": false,
+    "createdAt": "2024-11-25T08:00:00Z",
+    "updatedAt": "2024-12-01T09:00:00Z"
+  },
+  {
+    "name": "Combat Gloves",
+    "description": "High-performance gloves for tactical operations, designed for grip and protection.",
+    "price": 49.99,
+    "category": [
+      1
+    ],
+    "stock": 50,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "images": [
+      "https://example.com/images/merch3.jpg",
+      "https://example.com/images/merch4.jpg"
+    ],
+    "afiliatedCreators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "discount": 10,
+    "isFeatured": false,
+    "offer": true,
+    "createdAt": "2024-12-01T09:30:00Z",
+    "updatedAt": "2024-12-05T10:00:00Z"
+  }
+]

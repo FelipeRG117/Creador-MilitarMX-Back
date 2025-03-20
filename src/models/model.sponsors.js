@@ -7,15 +7,17 @@ const SponsorSchema = new mongoose.Schema(
     imgs: [{ type: String }],
     website: { type: String },
     description: { type: String, required: true },
-    sponseredCreators: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "creators",
-      required: true,
-    },
+    sponseredCreators: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "creator",
+        required: true,
+      },
+    ],
     clickCounts: { type: Number, requeried: true },
     isActive: { type: Boolean, default: true },
   },
   { timestamps: true }
 );
 
-export const sponsorModel = mongoose.model("sponsors", SponsorSchema);
+export const sponsorModel = mongoose.model("sponsor", SponsorSchema);

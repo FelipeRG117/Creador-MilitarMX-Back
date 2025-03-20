@@ -17,9 +17,9 @@ import { routesCourses } from "./src/routes/routes.courses.js";
 //import { routesHome } from "./src/routes/routes.home.js";
 
 //middlewares
+app.use(cors()); //no tener problemas con cors
 app.use(express.json()); //poder recibir datos json
 app.use(express.urlencoded({ extended: true })); //poder recibir datos varios
-app.use(cors()); //no tener problemas con cors
 
 //uso de rutas
 app.use("/api/users", routesUsers);
@@ -32,6 +32,6 @@ app.use("/api/courses", routesCourses);
 //app.use(routesHome)
 
 //escucha del servidor
-app.listen(8080, () => {
+app.listen(5000, () => {
   console.log(`escuchando en el puerto: http://localhost:${PORT}`);
 });

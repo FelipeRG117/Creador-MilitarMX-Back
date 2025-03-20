@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const ProductionSchema = new mongoose.Schema(
   {
-    // Relación con Institution o Creator (puede ser uno u otro, no ambos)
+    // relationship with insttitutions or creator, not both you can only get  one of them )
     relatedEntity: {
       type: mongoose.Schema.Types.ObjectId,
       required: true,
@@ -11,7 +11,7 @@ const ProductionSchema = new mongoose.Schema(
     entityType: {
       type: String,
       required: true,
-      enum: ["creators", "institutions"], // Especifica el modelo relacionado
+      enum: ["creator", "Institution"], // Especifica el modelo relacionado
     },
     // Información del video
     title: { type: String, required: true },
@@ -21,11 +21,11 @@ const ProductionSchema = new mongoose.Schema(
     tags: [{ type: String }], // Etiquetas para categorizar
     // Interacciones
     views: { type: Number, default: 0 }, // Contador de vistas
-    likes: [{ type: mongoose.Schema.Types.ObjectId, ref: "users" }], // Usuarios que dieron 'Me gusta'
+    likes: [{ type: mongoose.Schema.Types.ObjectId, ref: "user" }], // Usuarios que dieron 'Me gusta'
     isFeatured: { type: Boolean, default: false }, // Marcar como destacado
     uploadDate: { type: Date, default: Date.now }, // Fecha de subida no se hace el populate como corresponde  y en postman deberia de aparecer el registro y no el ID
   },
   { timestamps: true }
 );
 
-export const productionModel = mongoose.model("productions", ProductionSchema);
+export const productionModel = mongoose.model("production", ProductionSchema);

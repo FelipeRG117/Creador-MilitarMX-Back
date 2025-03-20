@@ -11,12 +11,12 @@ const CreatorsSchema = new mongoose.Schema(
     militaryGrade: { type: String },
     institutions: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "institutions",
+      ref: "institution",
       required: true,
     },
-    sponsors: [{ type: mongoose.Schema.Types.ObjectId, ref: "sponsors" }],
-    merch: [{ type: mongoose.Schema.Types.ObjectId, ref: "merch" }],
-    courses: [{ type: mongoose.Schema.Types.ObjectId, fef: "courses" }],
+    sponsors: [{ type: mongoose.Schema.Types.ObjectId, ref: "sponsor" }],
+    merches: [{ type: mongoose.Schema.Types.ObjectId, ref: "merche" }],
+    courses: [{ type: mongoose.Schema.Types.ObjectId, ref: "course" }],
     lastLogin: { type: Number, required: true },
     notification: { type: Boolean, default: true },
     role: { type: String, required: true },
@@ -25,4 +25,5 @@ const CreatorsSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const modelCreator = mongoose.model("creators", CreatorsSchema);
+export const modelCreator = mongoose.model("creator", CreatorsSchema);
+ 

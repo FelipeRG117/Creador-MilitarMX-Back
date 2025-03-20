@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Elite Leadership Development",
+    "description": "Master leadership skills and team management strategies.",
+    "category": "Leadership Training",
+    "image": [
+      "https://example.com/images/course2.jpg"
+    ],
+    "videos": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "plans": [
+      {
+        "planName": "Standard Plan",
+        "price": 249,
+        "duration": "4 months",
+        "benefits": [
+          "Access to all modules",
+          "Weekly group discussions"
+        ]
+      },
+      {
+        "planName": "Executive Plan",
+        "price": 499,
+        "duration": "8 months",
+        "benefits": [
+          "All benefits of Standard Plan",
+          "Personalized coaching"
+        ]
+      }
+    ],
+    "creators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "tags": [
+      "leadership",
+      "management",
+      "teamwork"
+    ],
+    "isActive": true,
+    "createdAt": "2024-11-15T14:30:00Z",
+    "updatedAt": "2024-12-01T08:45:00Z"
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "description": "An introduction to protecting digital assets and securing networks.",
+    "category": "Cybersecurity",
+    "image": [
+      "https://example.com/images/course3.jpg"
+    ],
+    "videos": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      },
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "plans": [
+      {
+        "planName": "Starter Plan",
+        "price": 199,
+        "duration": "2 months",
+        "benefits": [
+          "Access to basic modules",
+          "Community support"
+        ]
+      },
+      {
+        "planName": "Professional Plan",
+        "price": 399,
+        "duration": "6 months",
+        "benefits": [
+          "All benefits of Starter Plan",
+          "Hands-on projects",
+          "Industry-recognized certificate"
+        ]
+      }
+    ],
+    "creators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "tags": [
+      "cybersecurity",
+      "networking",
+      "digital safety"
+    ],
+    "isActive": true,
+    "createdAt": "2024-12-05T09:00:00Z",
+    "updatedAt": "2024-12-10T11:30:00Z"
+  }
+]

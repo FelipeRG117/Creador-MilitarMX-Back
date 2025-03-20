@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Escoltas VIP",
+    "imgs": [
+      "https://example.com/images/sponsor1.jpg",
+      "https://example.com/images/sponsor2.jpg"
+    ],
+    "website": "https://elitesponsorship.com",
+    "description": "Leading provider of training equipment for professionals.",
+    "sponseredCreators": [
+      {
+        "$oid": "67632b1dce6736e9741640d1"
+      }
+    ],
+    "clickCounts": 1250,
+    "isActive": true,
+    "createdAt": "2024-12-01T10:00:00Z",
+    "updatedAt": "2024-12-05T12:00:00Z"
+  }
+]

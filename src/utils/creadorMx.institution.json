@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Tactical Academy",
+    "description": "Leading institution for tactical training.",
+    "websites": [
+      "https://tacticalacademy.com"
+    ],
+    "images": [
+      "https://example.com/institution/tactical-academy.jpg"
+    ],
+    "adress": [
+      "123 Main Street, Cityville"
+    ],
+    "contactEmail": [
+      "info@tacticalacademy.com"
+    ],
+    "contactPhones": [
+      1234567890
+    ],
+    "afiliatedCreators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "estabilshedDate": "2005-04-12"
+  },
+  {
+    "name": "Military Training Center",
+    "description": "Comprehensive military and tactical training.",
+    "websites": [
+      "https://militarytrainingcenter.com"
+    ],
+    "images": [
+      "https://example.com/institution/military-center.jpg"
+    ],
+    "adress": [
+      "456 Another Street, Townsville"
+    ],
+    "contactEmail": [
+      "contact@militarytrainingcenter.com"
+    ],
+    "contactPhones": [
+      9876543210
+    ],
+    "afiliatedCreators": [
+      {
+        "$oid": "675b7888f47ada6996ffa0c5"
+      }
+    ],
+    "estabilshedDate": "2010-09-15"
+  }
+]

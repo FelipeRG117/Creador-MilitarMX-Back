@@ -10,7 +10,9 @@ const MerchSchema = new mongoose.Schema(
     stock: { type: Number, required: true },
     sizes: [{ type: String }],
     images: [{ type: String, required: true }],
-    afiliatedCreators: [{type: mongoose.Schema.Types.ObjectId, required: true, ref:"creators"}],
+    afiliatedCreators: [
+      { type: mongoose.Schema.Types.ObjectId, required: true, ref: "creator" },
+    ],
     discount: { type: Number },
     isFeatured: { type: Boolean, default: false },
     offer: { type: Boolean, default: false },
@@ -18,4 +20,4 @@ const MerchSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const merchModel = mongoose.model("merches", MerchSchema);
+export const merchModel = mongoose.model("merche", MerchSchema);

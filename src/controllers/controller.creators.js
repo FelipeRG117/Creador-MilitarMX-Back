@@ -13,4 +13,19 @@ export class CreatorsController {
       console.log(error);
     }
   }
+
+  async getSingleCreator(req, res) {
+    try {
+      const id = req.params.id;
+      console.log("este es el id " + id);
+      const creator = await creatorsRepository.getSingleCreator(id);
+      console.log(creator);
+      if (!creator) {
+        return console.log("esto no es creator");
+      }
+      res.status(200).json(creator);
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

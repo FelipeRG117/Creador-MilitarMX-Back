@@ -1,0 +1,30 @@
+[
+  {
+    "userName": "johnDoe",
+    "email": "johndoe@example.com",
+    "password": "hashedpassword123",
+    "firstName": "John",
+    "preference": true,
+    "role": "user",
+    "notification": true,
+    "location": "New York, USA",
+    "lastLogin": {
+      "$numberLong": "1678901234567"
+    },
+    "followed": "janeDoe"
+  },
+  {
+    "userName": "adminJane",
+    "email": "adminjane@example.com",
+    "password": "securehashedpassword456",
+    "firstName": "Jane",
+    "preference": false,
+    "role": "admin",
+    "notification": false,
+    "location": "Los Angeles, USA",
+    "lastLogin": {
+      "$numberLong": "1678909876543"
+    },
+    "followed": "johnDoe"
+  }
+]
